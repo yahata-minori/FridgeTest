@@ -11,7 +11,7 @@ import android.widget.ImageSwitcher;
 import android.widget.ImageView;
 import android.widget.ViewSwitcher;
 
-public class Slides extends AppCompatActivity {
+public class SlidesActivity extends AppCompatActivity {
 
     ImageSwitcher mImageSwitcher;
     int[] mImageResources = {R.drawable.fridge00,R.drawable.fridge01

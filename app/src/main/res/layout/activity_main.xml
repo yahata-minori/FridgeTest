@@ -7,6 +7,25 @@
     android:layout_height="match_parent"
     tools:context="com.example.minori.fridgetest.MainActivity">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/top_tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:actionBarSize"
+        android:background="?android:colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/bottom_tool_bar"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:actionBarSize"
+        android:background="?android:colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    </android.support.v7.widget.Toolbar>
+
 
     <ImageButton
         android:id="@+id/imageButton8"
@@ -25,7 +44,8 @@
         android:layout_marginTop="35dp"
         app:srcCompat="?android:attr/listChoiceIndicatorMultiple"
         android:layout_below="@+id/imageButton8"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:onClick="onButtonTapped2"/>
 
     <ImageButton
         android:id="@+id/imageButton10"
@@ -34,14 +54,15 @@
         android:layout_below="@+id/imageButton9"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
+        android:onClick="onButtonTapped3"
         app:srcCompat="?android:attr/listChoiceIndicatorMultiple"/>
 
-    <ImageButton
-        android:id="@+id/imageButton11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/imageButton10"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
-        app:srcCompat="?android:attr/listChoiceIndicatorMultiple"/>
+        android:layout_marginTop="10dp"/>
+
 </RelativeLayout>

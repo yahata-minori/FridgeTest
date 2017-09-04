@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "409506715438",
+    "firebase_url": "https://fridgetest-42212.firebaseio.com",
+    "project_id": "fridgetest-42212",
+    "storage_bucket": "fridgetest-42212.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409506715438:android:16247e4fe91535cd",
+        "android_client_info": {
+          "package_name": "com.example.minori.fridgetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409506715438-roqclre198j3llnfoglleom6o9mbnajs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minori.fridgetest",
+            "certificate_hash": "6eb0001377af4efd771a85c132004e8baae27c96"
+          }
+        },
+        {
+          "client_id": "409506715438-r98bd31hhb14bi286ujue18f2odhqok8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCED_UNI2ypebhwLLZkSbjDHBmXz4RB2yc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409506715438-r98bd31hhb14bi286ujue18f2odhqok8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

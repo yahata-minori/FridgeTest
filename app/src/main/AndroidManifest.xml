@@ -16,9 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity">
+        <activity android:name=".SlidesActivity">
         </activity>
-        <activity android:name=".Slides">
+        <activity android:name=".StorageActivity">
+        </activity>
+        <activity android:name=".ShowImagesActivity">
+        </activity>
+        <activity android:name=".CameraActivity">
         </activity>
     </application>
 
